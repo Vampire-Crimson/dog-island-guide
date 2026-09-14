@@ -15,7 +15,8 @@ header {
 .header-image {
     height: var(--header-height);
     width: auto;
-    padding-left: 4.5625rem;
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
 }
 
 nav {
