@@ -5,6 +5,8 @@
         <title>THE DOG Island Guide</title>
     </head>
     <body>
-        <p>In development. (August 31, 2026)</p>
+        <div id="header-placeholder"></div>
+        <p>In development. (September 14, 2026)</p>
+        <script>fetch("header.html").then(response => response.text()).then(headerContent => document.getElementById("header-placeholder").innerHTML = headerContent)</script>
     </body>
 </html>
