@@ -20,17 +20,19 @@ header {
 
 nav {
     display: flex;
+    flex-grow: 1;
 }
 
 .nav-button {
     box-sizing: border-box;
     height: var(--header-height);
-    width: 14.6875rem;
+    width: 14.2857%;
     background-color: #037ed2;
     color: white;
-    font-size: 1.67rem;
+    font-size: 125%;
     font-weight: bold;
     text-decoration: none;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
