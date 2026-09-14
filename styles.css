@@ -18,6 +18,10 @@ header {
     padding-left: 4.5625rem;
 }
 
+nav {
+    display: flex;
+}
+
 .nav-button {
     box-sizing: border-box;
     height: var(--header-height);
