@@ -41,11 +41,11 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-style: inset;
-    border-color: #0263a3;
+    border-style: outset;
+    border-color: #046bb5;
 }
 
 .nav-button:active {
-    border-style: outset;
-    border-color: #0263a3;
+    border-style: inset;
+    border-color: #046bb5;
 }
