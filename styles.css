@@ -1,0 +1,38 @@
+:root {
+    --header-height: 8.125rem;
+}
+
+header {
+    height: var(--header-height);
+    background-color: #037ed2;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-image {
+    height: var(--header-height);
+    width: auto;
+    padding-left: 4.5625rem;
+}
+
+.nav-button {
+    box-sizing: border-box;
+    height: var(--header-height);
+    width: 14.6875rem;
+    background-color: #037ed2;
+    color: white;
+    font-size: 1.67rem;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: inset;
+}
+
+.nav-button:active {
+    border-style: outset;
+}
