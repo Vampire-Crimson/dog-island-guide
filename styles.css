@@ -60,10 +60,14 @@ main {
 footer {
     background-color: #037ed2;
     color: white;
-    font-size: 1.25rem;
-    line-height: 1.5;
+    font-size: 0.9375rem;
+    line-height: 1.25;
     width: 79.7917%;
     margin: 0 auto;
+}
+
+footer p {
+    margin: 0;
 }
 
 footer a {
