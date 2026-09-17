@@ -28,6 +28,10 @@ header {
     justify-content: space-between;
 }
 
+#header-placeholder {
+    display: contents;
+}
+
 .header-image {
     height: var(--header-height);
     width: auto;
