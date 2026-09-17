@@ -68,6 +68,8 @@ main {
     color: #4B4B4B;
     width: 79.7917%;
     margin: 0 auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 footer {
@@ -89,4 +91,8 @@ footer p {
 footer a {
     color: white;
     text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
 }
