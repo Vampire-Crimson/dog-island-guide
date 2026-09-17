@@ -74,6 +74,7 @@ main {
 }
 
 footer {
+    box-sizing: border-box;
     background-color: #037ed2;
     color: white;
     font-size: 0.9375rem;
