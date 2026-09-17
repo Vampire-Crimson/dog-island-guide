@@ -63,13 +63,14 @@ nav {
 }
 
 main {
+    box-sizing: border-box;
     flex-grow: 1;
     background-color: white;
     color: #4B4B4B;
     width: 79.7917%;
     margin: 0 auto;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 footer {
