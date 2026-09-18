@@ -125,6 +125,7 @@ th {
     color: white;
     font-weight: bold;
     text-align: center;
+    padding: 1rem;
 }
 
 tr {
@@ -136,8 +137,12 @@ tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
+tfoot td {
+    background-color: #037ed2;
+}
+
 .tip-box {
-    box-sixing: border-box;
+    box-sizing: border-box;
     background-color: #e6f3fb;
     border: solid #037ed2;
     border-radius: 1rem;
