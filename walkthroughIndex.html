@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>THE DOG Island Walkthrough</title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="header-placeholder"></div>
+        <main>
+            <h1><em>THE DOG Island</em> Walkthrough</h1>
+            <p>Welcome to the walkthrough index! Here, all the parts of the walkthrough are organized so you can figure out exactly which one you need to help you out. Each entry links directly to that section, so you can jump right in.</p>
+            <table>
+                <tr>
+                    <th colspan="2">Walkthrough</th>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="walkthroughPart01.html">Part 1</a>
+                    </td>
+                    <td>
+                        Introduction, Help the Milkman, Treasure Hunt, Departing from Home
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Part 2
+                    </td>
+                    <td>
+                        Writing in progress...
+                    </td>
+                </tr>
+            </table>
+        </main>
+        <div id="footer-placeholder"></div>
+        <script>fetch("header.html").then(response => response.text()).then(headerContent => document.getElementById("header-placeholder").innerHTML = headerContent)</script>
+        <script>fetch("footer.html").then(response => response.text()).then(footerContent => document.getElementById("footer-placeholder").innerHTML = footerContent)</script>
+    </body>
+</html>
