@@ -121,7 +121,6 @@ table {
     overflow: hidden;
     width: fit-content;
     margin: 0 auto;
-    border: solid #046bb5;
 }
 
 th {
@@ -131,6 +130,8 @@ th {
     text-align: center;
     padding: 1rem;
     border: solid #046bb5;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 
 tr {
@@ -149,6 +150,8 @@ td {
 
 tfoot td {
     background-color: #037ed2;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 
 .tip-box {
