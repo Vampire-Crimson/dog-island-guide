@@ -121,6 +121,7 @@ table {
     overflow: hidden;
     width: fit-content;
     margin: 0 auto;
+    border: solid #046bb5;
 }
 
 th {
