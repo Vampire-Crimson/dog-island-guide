@@ -1,5 +1,5 @@
 :root {
-    --header-height: 8.125rem;
+    --header-height: 7.5rem;
 }
 
 .float-left {
@@ -75,7 +75,7 @@ main {
     flex-grow: 1;
     background-color: white;
     color: #4B4B4B;
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -90,7 +90,7 @@ footer {
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
     padding-left: 0.25rem;
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
 }
 
@@ -162,4 +162,12 @@ tfoot td {
     border-radius: 1rem;
     width: 30%;
     padding: 1rem;
+}
+
+.tip-box.float-left {
+    margin-right: 1rem;
+}
+
+.tip-box.float-right {
+    margin-left: 1rem;
 }
