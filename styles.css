@@ -1,5 +1,6 @@
 :root {
-    --header-height: 7.5rem;
+    --header-height: 7rem;
+    --content-width: 97.5%;
 }
 
 .float-left {
@@ -75,7 +76,7 @@ main {
     flex-grow: 1;
     background-color: white;
     color: #4B4B4B;
-    width: 95%;
+    width: var(--content-width);
     margin: 0 auto;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -90,7 +91,7 @@ footer {
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
     padding-left: 0.25rem;
-    width: 95%;
+    width: var(--content-width);
     margin: 0 auto;
 }
 
