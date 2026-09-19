@@ -126,6 +126,7 @@ th {
     font-weight: bold;
     text-align: center;
     padding: 1rem;
+    border: solid #046bb5;
 }
 
 tr {
@@ -139,6 +140,7 @@ tr:nth-child(even) {
 
 td {
     padding: 1rem;
+    border: solid #046bb5;
 }
 
 tfoot td {
