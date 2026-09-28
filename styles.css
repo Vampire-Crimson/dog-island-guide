@@ -113,6 +113,10 @@ h2 {
     clear: both;
 }
 
+h3 {
+    scroll-margin-top: var(--header-height);
+}
+
 table {
     border-collapse: separate;
     border-spacing: 0;
