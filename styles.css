@@ -190,6 +190,10 @@ tfoot td {
     height: auto;
 }
 
+.collection-list a {
+    display: block;
+}
+
 .collection-list a:hover {
     background-color: #e6f3fb;
 }
