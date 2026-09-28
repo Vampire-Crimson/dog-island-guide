@@ -172,3 +172,20 @@ tfoot td {
 .tip-box.float-right {
     margin-left: 1rem;
 }
+
+.collection-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.collection-list img {
+    width: 100%;
+    height: auto;
+}
+
+.collection-list a:hover {
+    background-color: #e6f3fb;
+}
