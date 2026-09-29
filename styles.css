@@ -115,6 +115,8 @@ h2 {
 
 h3 {
     scroll-margin-top: var(--header-height);
+    margin-left: 2rem;
+    clear: both;
 }
 
 table {
