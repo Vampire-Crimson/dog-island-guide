@@ -25,7 +25,7 @@ body {
 
 header {
     height: var(--header-height);
-    background-color: #037ed2;
+    background-color: #0274C2;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -53,9 +53,9 @@ nav {
     box-sizing: border-box;
     height: var(--header-height);
     width: 14.2857%;
-    background-color: #037ed2;
+    background-color: #0274C2;
     color: white;
-    font-size: 125%;
+    font-size: 1.5rem;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
@@ -76,6 +76,8 @@ main {
     flex-grow: 1;
     background-color: white;
     color: #4B4B4B;
+    font-size: 1.125rem;
+    line-height: 1.5;
     width: var(--content-width);
     margin: 0 auto;
     padding-left: 1rem;
@@ -84,9 +86,9 @@ main {
 
 footer {
     box-sizing: border-box;
-    background-color: #037ed2;
+    background-color: #0274C2;
     color: white;
-    font-size: 0.9375rem;
+    font-size: 1rem;
     line-height: 1.25;
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
@@ -106,17 +108,20 @@ footer a {
 
 h1 {
     text-align: center;
+    font-size: 2.25rem;
 }
 
 h2 {
     margin-left: 2rem;
     clear: both;
+    font-size: 1.875rem;
 }
 
 h3 {
     scroll-margin-top: var(--header-height);
     margin-left: 2rem;
     clear: both;
+    font-size: 1.5rem;
 }
 
 table {
@@ -132,7 +137,7 @@ table {
 }
 
 th {
-    background-color: #037ed2;
+    background-color: #0274C2;
     color: white;
     font-weight: bold;
     text-align: center;
@@ -157,7 +162,7 @@ td {
 }
 
 tfoot td {
-    background-color: #037ed2;
+    background-color: #0274C2;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
 }
@@ -165,7 +170,7 @@ tfoot td {
 .tip-box {
     box-sizing: border-box;
     background-color: #e6f3fb;
-    border: solid #037ed2;
+    border: solid #0274C2;
     border-radius: 1rem;
     width: 30%;
     padding: 1rem;
