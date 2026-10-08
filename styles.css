@@ -204,3 +204,35 @@ tfoot td {
 .collection-list a:hover {
     background-color: #046bb5;
 }
+
+#guestbook {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#guestbook input, #guestbook textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.125rem;
+    font-family: inherit;
+}
+
+#guestbook textarea {
+    height: 8rem;
+}
+
+.submit-button {
+    background-color: #0274C2;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    font-size: 1.125rem;
+    border-style: outset;
+    border-color: #046bb5;
+}
+
+.submit-button:active {
+    border-style: inset;
+}
