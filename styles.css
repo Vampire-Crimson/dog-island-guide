@@ -209,6 +209,7 @@ tfoot td {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    padding-bottom: 1rem;
 }
 
 #guestbook input, #guestbook textarea {
@@ -221,6 +222,7 @@ tfoot td {
 
 #guestbook textarea {
     height: 8rem;
+    resize: vertical;
 }
 
 .submit-button {
@@ -231,6 +233,7 @@ tfoot td {
     font-size: 1.125rem;
     border-style: outset;
     border-color: #046bb5;
+    align-self: center;
 }
 
 .submit-button:active {
