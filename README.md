@@ -1,7 +1,8 @@
 https://vampire-crimson.github.io/dog-island-guide/
 
-Last updates: 10/06/2026 (added the fish collection page, updated stylesheet)
+Last updates: 10/08/2026: added the guestbook page. fully functional in terms of processing, but not connected to a server
 
+10/06/2026: added the fish collection page; altered styles
 9/28/2026: added the food/flowers collection page
 9/18/2026: added walkthrough index and part 1 of the walkthrough; altered styles
 9/17/2026: added home page content; fixed sticky header
