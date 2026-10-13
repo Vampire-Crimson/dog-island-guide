@@ -172,7 +172,8 @@ tfoot td {
     background-color: #e6f3fb;
     border: solid #0274C2;
     border-radius: 1rem;
-    width: 30%;
+    width: 22rem;
+    max-width: 100%;
     padding: 1rem;
 }
 
@@ -238,4 +239,10 @@ tfoot td {
 
 .submit-button:active {
     border-style: inset;
+}
+
+@media (max-width: 60rem) {
+    :root {
+        --content-width: 100%;
+    }
 }
