@@ -264,7 +264,8 @@ tfoot td {
     }
 
     nav.open {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
     .nav-button {
@@ -272,6 +273,11 @@ tfoot td {
         height: auto;
         min-height: 3rem;
         padding: 0.25rem;
+        font-size: 1.25rem;
+    }
+
+    .nav-button:last-child {
+        grid-column: 1 / -1;
     }
 
     h3 {
@@ -289,5 +295,13 @@ tfoot td {
         font-size: 1.5rem;
         border-style: outset;
         border-color: #046bb5;
+    }
+
+    #menu-button:active {
+        border-style: inset;
+    }
+
+    #menu-button[aria-expanded="true"] {
+        border-style: inset;
     }
 }
