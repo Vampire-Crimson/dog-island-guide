@@ -248,11 +248,36 @@ tfoot td {
 @media (max-width: 75rem) {
     :root {
         --content-width: 100%;
+        --header-height: 4.5rem;
+    }
+
+    header {
+        position: static;
+        height: auto;
+        flex-wrap: wrap;
     }
 
     nav {
         display: none;
+        flex-basis: 100%;
+        flex-direction: column;
     }
+
+    nav.open {
+        display: flex;
+    }
+
+    .nav-button {
+        width: 100%;
+        height: auto;
+        min-height: 3rem;
+        padding: 0.25rem;
+    }
+
+    h3 {
+        scroll-margin-top: 0;
+    }
+
     #menu-button {
         display: block;
         align-self: center;
