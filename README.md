@@ -1,7 +1,8 @@
 https://vampire-crimson.github.io/dog-island-guide/
 
-Last updates: 10/14/2026: added the bug collection page
+Last updates: 10/15/2026: added placeholder page for accessory synthesis
 
+10/14/2026: added the bug collection page
 10/13/2026: added meta descriptions to all pages; added mobile layout
 10/08/2026: added the guestbook page
 10/06/2026: added the fish collection page; altered styles
